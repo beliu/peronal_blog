@@ -1,0 +1,77 @@
+@import url(phone.css);
+@import url(desktop.css);
+
+
+a, 
+a:link, 
+a:visited {
+    text-decoration: none;
+    color: #4a4a4a;
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto auto 0;
+}
+
+
+/* General Styling for article titles */
+.article-title {
+    line-height: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+/*  General Layout Styling for all content on page  */
+.main-container {
+    display: grid;
+}
+
+
+/*   General Layout for all non-headline articles */
+.article-cards-container {
+    display: grid;
+}
+
+
+/* General Layout Style for Article Details */
+.rating {
+    margin: 0 auto;
+}
+
+
+/* Headline Article Section */
+.headline-description {
+    position: relative;
+    width: 80vw;
+    margin: 8px auto 0 auto;
+    bottom: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.headline-title {
+    margin: 1rem auto 0.5rem auto;
+}
+
+
+/* Styling for Headings that add breaks to the page */
+.break-heading {
+    color: #6a6a6a;
+}
+
+
+/* Styling for all buttons on the page */
+.btn {
+    width: 40vw;
+    height: 3rem;
+    background-color: #333;
+    border: hidden;
+    border-radius: 5px;
+    justify-self: center;
+    margin: 1rem 0 1rem 0;
+    color: #fff;
+    font-size: 1rem;
+}

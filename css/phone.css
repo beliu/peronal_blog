@@ -1,0 +1,112 @@
+@media(max-width: 415px) {
+
+
+    .main-container{
+        grid-template-columns: 1fr;
+    }
+
+
+    /*  Styling for the top Nav Bar and Headline Article */
+    .top-section {
+        width: 100vw; 
+        height: auto;
+    }
+
+    
+    /* Styling for top nav bar */
+    .nav-bar {
+        background-color: #ffc0cb;
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        border-style: none none ridge none;
+    }
+
+
+    .nav-logo {
+        grid-column-start: 2;
+        justify-self: start;
+    }
+
+
+    /* Styling for top nav bar toggle menu*/
+    .nav-logo-toggle-menu {
+        display: grid;
+        grid-template-columns: 0.5fr 1fr;
+    }
+
+
+    .nav-toggle-menu {
+        margin-right: auto;
+        grid-column-start: 1;
+    }
+
+
+    /* Styling to hide nav items (when not toggled) */
+    .nav-menu-item {
+        display: none;
+    }
+
+
+    /* Show nav items when user clicks on menu icon in mobile view */
+    .nav-menu-item-show {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+    }
+
+
+    .nav-item {
+        padding-top: 5px;
+    }
+
+
+    /*  Styling for the headline article  */
+    .headline-img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /*  Styling for the secondary article  */
+    .secondary-img-thumbnail {
+        width: 100%;
+    }
+
+
+    .secondary-article-title {
+        width: 80vw;
+    }
+
+    /*  Styling for other articles */
+    .article-cards-container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        margin: auto 3vw auto 3vw;
+    }
+
+
+    .article-img-thumbnail {
+        width: 45vw;
+    }
+
+
+    .article-link {
+        display: flex;
+        flex-direction: row;
+        height: 7rem;
+    }
+
+    
+    .article-description {
+        margin-left: 0.5rem;
+    }
+
+
+    .article-brief {
+        margin-top: 0;
+    }
+
+
+    /* Styling for buttons */
+}
