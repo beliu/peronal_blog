@@ -1,0 +1,12 @@
+@media (min-width: 416px) and (max-width: 1024px) {
+    .input {
+        width: 45%;
+    }
+
+    .input:not(:last-of-type) {
+        margin: 0 1rem 0 0;
+    }
+
+
+
+}

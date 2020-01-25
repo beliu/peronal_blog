@@ -13,22 +13,6 @@
     }
 
     
-    /* Styling for top nav bar */
-    .nav-bar {
-        background-color: #ffc0cb;
-        display: flex;
-        flex-direction: column;
-        padding: 16px;
-        border-style: none none ridge none;
-    }
-
-
-    .nav-logo {
-        grid-column-start: 2;
-        justify-self: start;
-    }
-
-
     /* Styling for top nav bar toggle menu*/
     .nav-logo-toggle-menu {
         display: grid;
@@ -37,8 +21,12 @@
 
 
     .nav-toggle-menu {
-        margin-right: auto;
         grid-column-start: 1;
+    }
+
+
+    .nav-logo {
+        grid-column-start: 2;
     }
 
 
@@ -68,45 +56,77 @@
     }
 
 
+    /*  Styling for non-headline articles */
+    .article-container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        width: 95vw;
+    }
+
+
     /*  Styling for the secondary article  */
-    .secondary-img-thumbnail {
-        width: 100%;
+    .secondary-article-img {
+      width: 100%;
     }
 
 
     .secondary-article-title {
-        width: 80vw;
-    }
+      width: 80%;
+  }
 
-    /*  Styling for other articles */
-    .article-cards-container {
+
+    /* Styling for More Articles */
+    .more-articles-container {
+        display: grid;
         grid-template-columns: 1fr;
         grid-gap: 1rem;
-        margin: auto 3vw auto 3vw;
+        width: 100%;
     }
 
 
-    .article-img-thumbnail {
-        width: 45vw;
-    }
-
-
-    .article-link {
+    .regular-article-card {
         display: flex;
         flex-direction: row;
         height: 7rem;
     }
 
-    
+
+    .article-img-thumbnail {
+        width: 45%;
+        flex-shrink: 0;
+    }
+
+
     .article-description {
         margin-left: 0.5rem;
     }
 
-
-    .article-brief {
-        margin-top: 0;
+    
+    /* Layout and styling for the subscription section */
+    .input {
+        width: 80%;
+        margin: 0.5rem 0;
     }
 
 
-    /* Styling for buttons */
+    /* Layout and Styling for footer */
+    .footer-logo {
+        width: 100%;
+    }
+
+
+    .footer-links {
+        width: 100%;
+    }
+
+
+    .footer-links > li{
+        margin: 0 0 2rem 0;
+    }
+
+
+    .social-media-bar {
+        width: 100%;
+        margin: 0 0 1rem 0;
+    }
 }

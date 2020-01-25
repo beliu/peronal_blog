@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
     <!-- Font Icons -->
-    <script src="https://kit.fontawesome.com/8fea07112a.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/8fea07112a.js"></script> -->
 
     <!-- Menu Toggle Script in Mobile View -->
     <script src="scripts/menu_toggle.js" defer></script>
@@ -15,30 +15,34 @@
 </head>
 <body>
     <div class="main-container">
-        <!-- Top section contains nav bar and headline post image -->
+        <!-- Top section contains nav bar and headline article -->
         <div class="top-section">
-            <nav class="nav-bar">
-                <!-- Nav Bar Logo and Mobile Menu Toggle -->
-                <div class="nav-logo-toggle-menu">
-                    <div class="nav-toggle-menu">
-                        <i class="fas fa-bars"></i>
+            <!-- Nav bar section contains the nav bar toggle and the menu items -->
+            <div class="nav-bar-container">
+                <nav class="nav-bar">
+                    <!-- Nav Bar Logo and Mobile Menu Toggle -->
+                    <div class="nav-logo-toggle-menu">
+                        <div class="nav-toggle-menu">
+                            <!-- <i class="fas fa-bars"></i> -->
+                            <img src="media/menu.png" class="toggle-menu">
+                        </div>
+                        <a class="nav-logo" href="">Yummy Xiao Bao</a>
                     </div>
-                    <a class="nav-logo" href="">Yummy Xiao Bao</a>
-                </div>
-                <!-- Menu of Nav Bar Items -->
-                <div class="nav-menu-item">
-                    <a class="nav-item" href="#read">READ</a>
-                    <a class="nav-item" href="#watch">WATCH</a>
-                    <a class="nav-item" href="#listen">LISTEN</a>
-                    <a class="nav-item" href="#contact">CONTACT</a>
-                    <a class="nav-item" href="#search">SEARCH</a>
-                    <a class="nav-item" href="#signup">SIGN UP</a>
-                </div>
-            </nav>
+                    <!-- Menu of Nav Bar Items -->
+                    <div class="nav-menu-item">
+                        <a class="nav-item" href="#read">READ</a>
+                        <a class="nav-item" href="#watch">WATCH</a>
+                        <a class="nav-item" href="#listen">LISTEN</a>
+                        <a class="nav-item" href="#contact">CONTACT</a>
+                        <a class="nav-item" href="#search">SEARCH</a>
+                        <a class="nav-item" href="#signup">SIGN UP</a>
+                    </div>
+                </nav>
+            </div>
             
             <!-- The headline article -->
-            <article class="headline-article-card">
-                <a href="">
+            <article>
+                <a href="" class="headline-article-card">
                     <img src="media/headline_img.jpeg" alt="little baby bum banner" class="headline-img">
                     <div class="headline-description">
                         <h3 class="headline-title article-title">Your Kid Will Laugh and Learn <br> with Little Baby Bum</h3>
@@ -48,67 +52,69 @@
             </article>
         </div>
 
-
-        <div class="article-cards-container">
+        <!-- This section contains all the non-headline articles -->
+        <div class="article-container">
             <!-- The secondary article -->
-            <div class="secondary-article">
-                <a href="">
-                    <img src="media/llama_llama_thumbnail.jpeg" alt="llama llama banner" class="secondary-img-thumbnail">
+            <article>
+                <a href="" class="secondary-article-card">
+                    <img src="media/llama_llama_thumbnail.jpeg" alt="llama llama banner" class="secondary-article-img">
                     <h3 class="secondary-article-title article-title">Single Mom Power! In Llama Llama, the Mom is a Superhero ... and the Dad is AWOL</h3>
                     <p class='rating'>Rating: 👶👶👶</p>
                 </a>
-            </div>
+            </article>
 
             <h4 class="break-heading">More Posts</h4>
 
-            <!-- The other articles -->
-            <article class="regular-article-card">
-                <a class="article-link" href="">                    
-                    <img src="media/wonder_ball.jpeg" alt="wonderball thumbnail" class="article-img-thumbnail">    
-                    <div class="article-description">                    
-                        <h4 class="article-title">Blog Title</h4>
-                        <p>A rating for the show</p>
-                    </div>
-                                           
-                </a>
-            </article>
+            <!-- The remaining articles -->
+            <div class="more-articles-container">
+                <article>
+                    <a href="" class="regular-article-card" >                    
+                        <img src="media/wonder_ball.jpeg" alt="wonderball thumbnail" class="article-img-thumbnail">    
+                        <div class="article-description">                    
+                            <h4>Fantastic Animation and <br> Fart Jokes. A Winning Combo </h4>
+                            <p>A rating for the show</p>
+                        </div>                                       
+                    </a>
+                </article>
 
-            <article class="regular-article-card">
-                <a class="article-link" href="">
-                    <img src="media/paw_patrol.jpeg" alt="paw patrol thumbnail" class="article-img-thumbnail">
-                    <div class="article-description"> 
-                        <h4 class="article-title">Blog Title</h4>
-                        <p>A rating for the show</p>
-                    </div>
-                    
-                </a>
-            </article>
+                <article>
+                    <a href="" class="regular-article-card" >
+                        <img src="media/paw_patrol.jpeg" alt="paw patrol thumbnail" class="article-img-thumbnail">
+                        <div class="article-description"> 
+                            <h4>Everybody's Favorite ... <br> but a Little Bland.</h4>
+                            <p>A rating for the show</p>
+                        </div>
+                    </a>
+                </article>
 
-            <article class="regular-article-card">
-                <a class="article-link" href="">                    
-                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
-                    <div class="article-description">                    
-                        <h4 class="article-title">Blog Title</h4>
-                        <p>A rating for the show</p>
-                    </div>
-                                           
-                </a>
-            </article>
-
-            <button class="btn load-btn">LOAD MORE</button>
+                <article>
+                    <a href="" class="regular-article-card" >                    
+                        <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                        <div class="article-description">                    
+                            <h4>The Second British Invasion is Upon Us</h4>
+                            <p>A rating for the show</p>
+                        </div>                                       
+                    </a>
+                </article>
+            </div>
         </div>
 
+        <button class="btn load-btn">LOAD MORE</button>
+            
+     
         <div class="subscribe-container">
-            <hr>
-            <h2>Subscribe!</h2>
-            <input type="text" id="full-name" name="full-name" value="Full Name">
-            <input type="text" id="email" name="email" value="E-mail">
-            <hr>
+            <hr class="section-divider">
+            <h3 class="subscribe-heading">Subscribe!</h3>
+            <input class="input input-name" type="text" id="full-name" name="full-name" placeholder=" Full Name">
+            <input class="input input-email" type="text" id="email" name="email" placeholder=" E-Mail">
+            <button class="btn load-btn">SIGN UP</button>
+            <hr class="section-divider">
         </div>
+        
 
-        <footer>
-            <h1>Yummy Xiao Bao</h1>
-            <ul>
+        <footer class="footer">
+            <h3 class="footer-logo">Yummy Xiao Bao</h3>           
+            <ul class="footer-links">
                 <li>
                     <a href="">All Articles</a>
                 </li>
@@ -123,10 +129,18 @@
                 </li>
             </ul>
             <div class="social-media-bar">
-                <a href="">Facebook</a>
-                <a href="">Twitter</a>
-                <a href="">Instagram</a>
-                <a href="">Email</a>
+                <a href="">
+                    <img class="social-icon" src="media/facebook.png">
+                </a>
+                <a href="">
+                    <img class="social-icon" src="media/twitter.png">
+                </a>
+                <a href="">
+                    <img class="social-icon" src="media/instagram.png">
+                </a>
+                <a href="">
+                    <img class="social-icon" src="media/email.png">
+                </a>
             </div>
         </footer>
     </div>

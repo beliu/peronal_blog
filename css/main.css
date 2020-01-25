@@ -1,7 +1,9 @@
 @import url(phone.css);
+@import url(tablet.css);
 @import url(desktop.css);
 
 
+/* Universal styling */
 a, 
 a:link, 
 a:visited {
@@ -12,39 +14,61 @@ a:visited {
 
 body {
     font-family: sans-serif;
-    margin: 0 auto auto 0;
+    margin: 0;
 }
 
-
-/* General Styling for article titles */
-.article-title {
-    line-height: 1.7rem;
-    margin-bottom: 0.5rem;
-}
-
-/*  General Layout Styling for all content on page  */
+ 
+/*  General Layout and Styling across all pages  */
 .main-container {
     display: grid;
+    grid-gap: 2rem;
+    justify-items: center;
 }
 
 
-/*   General Layout for all non-headline articles */
-.article-cards-container {
-    display: grid;
+.input {
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: 1rem;
+    width: 200px;
+    height: 2.5rem;
 }
 
 
-/* General Layout Style for Article Details */
-.rating {
-    margin: 0 auto;
+/* Styling for top nav bar */
+.nav-bar {
+    /* background-color: #ffc0cb; */
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-style: none none groove none;
+    margin-bottom: 0;
+}
+
+
+.nav-toggle-menu {
+    cursor: pointer;
+}
+
+
+.toggle-menu {
+    width: 14px;
+    height: 14px;
 }
 
 
 /* Headline Article Section */
+.headline-article-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .headline-description {
     position: relative;
     width: 80vw;
-    margin: 8px auto 0 auto;
+    margin-top: 0.5rem;
     bottom: 3rem;
     text-align: center;
     background-color: #fff;
@@ -53,7 +77,26 @@ body {
 
 
 .headline-title {
-    margin: 1rem auto 0.5rem auto;
+    margin-top: 1rem;
+}
+
+
+/*   General Layout for all non-headline articles */
+.article-container {
+    display: grid;
+    justify-items: center;
+}
+
+
+/* General Layout Style for Article Details */
+.article-title {
+    line-height: 1.7rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.rating {
+    margin: 0 auto;
 }
 
 
@@ -71,7 +114,62 @@ body {
     border: hidden;
     border-radius: 5px;
     justify-self: center;
-    margin: 1rem 0 1rem 0;
+    margin: 2rem 0 2rem 0;
     color: #fff;
     font-size: 1rem;
+    cursor: pointer;
+}
+
+
+/* Layout and Styling for the Subscribe section */
+.section-divider {
+    width: 90vw;
+    height: 0;
+}
+
+
+.subscribe-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80vw;
+}
+
+
+.section-divider,
+.subscribe-heading {
+    width: 100%;
+}
+
+
+.subscribe-heading {
+    text-align: center;
+}
+
+
+/* Layout and Styling for the footer */
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    text-align: center;
+    width: 80vw;
+}
+
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+.social-media-bar {
+    display: flex;
+    justify-content: space-evenly;
 }
