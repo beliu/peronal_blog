@@ -1,0 +1,76 @@
+@import url(main.css);
+@import url(phone_home.css);
+
+@media(max-width: 415px) {
+    /* Layout for the Main article section of the page */
+    .article-section{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        width: 92vw;
+    }
+
+
+    /* Styling for article page title and author info */
+    .profile-info {
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+
+    .profile-pic {
+        display: inline-grid;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        margin: auto 1.5rem 0 0;
+    }
+
+
+    .profile-text {
+        margin: 0;
+        font-size: 0.8rem;
+    }
+
+
+    .vertical-divider {
+        height: 20px;
+        color: #d3d3d3;
+        margin: auto 1rem;
+    }
+
+
+    /* Layout for social media section */
+    .social-media-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+        margin: 0 0 1rem 0;
+        background-color: #7fffd4;
+    }
+
+
+    /* Layout for article gallery section */
+    .article-gallery-container {
+        width: 92vw;
+    }
+
+
+    .article-gallery-card {
+        width: 48%;
+        margin: 1rem 0 1rem 0;
+    }
+
+
+    .article-img-thumbnail {
+        width: 100%;
+        height: 7rem;
+    }
+
+
+    .gallery-title {
+        margin: 0.5rem auto auto auto;
+    }
+}
