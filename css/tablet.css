@@ -1,4 +1,73 @@
 @media (min-width: 416px) and (max-width: 1024px) {
+
+
+    /*  Styling for the top Nav Bar and Headline Article */
+    .top-section {
+        width: 95vw; 
+        height: auto;
+    }
+
+
+    .nav-bar {
+        height: 4rem;
+        justify-content: space-between;
+    }
+
+
+    .nav-logo-toggle-menu {
+        display: flex; 
+        justify-content: center;
+    }
+
+
+    .nav-toggle-menu {
+        display: none;
+    }
+
+
+    .nav-menu-item {
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr 0.2fr;
+    }
+
+
+    .nav-left-items {
+        display: flex;
+        justify-content: space-evenly;
+        grid-column: 2 / span 1;
+    }
+
+
+    .nav-right-items {
+        grid-column: 3 / span 1;
+        justify-self: end;
+    }
+
+ 
+    
+
+
+    /*  Styling for the headline article  */
+    .headline-img,
+    .article-img-thumbnail {
+        width: 100%;
+    }
+
+
+    /* Styling for the other articles on the page */
+    .article-container {
+        grid-template-columns: 1fr;
+        grid-gap: 1rem;
+        width: 95vw;
+    }
+
+
+    /* Styling for the secondary article  */
+    .secondary-article-img {
+        width: 100%;
+    }
+
+    
     .input {
         width: 45%;
     }

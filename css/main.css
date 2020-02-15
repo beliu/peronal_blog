@@ -1,7 +1,7 @@
-/* @import url(phone_home.css);
-@import url(phone_article.css);
+@import url(phone_home.css);
+/* @import url(phone_article.css); */
 @import url(tablet.css);
-@import url(desktop.css); */
+/* @import url(desktop.css); */
 
 
 /* Universal styling */
@@ -50,7 +50,7 @@ body {
     /* background-color: #ffc0cb; */
     display: flex;
     flex-direction: column;
-    padding: 16px;
+    padding: 16px 0 16px 16px;
     border-style: none none groove none;
     margin-bottom: 0;
 }
