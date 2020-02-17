@@ -58,29 +58,51 @@
 
     /* Styling for non-headline articles */
     .article-container {
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
+        /* grid-template-columns: 1fr;
+        grid-gap: 1rem; */
         width: 95vw;
     }
 
 
-    /* Styling for the secondary article  */
-    .secondary-article-img {
+    /* Styling for the subheadline article  */
+    .main-subheadline-article {
+        order: 1; 
+    }
+
+
+    .break-heading {
+        order: 2;
+    }
+
+
+    .secondary-subheadline-articles-section {
+        order: 3;
+    }
+
+
+    .secondary-subheadline-article {
+        margin: 0 0 1.2rem 0;
+    }
+
+
+    .subheadline-article-img {
       width: 100%;
     }
 
 
-    .secondary-article-title {
+    .subheadline-article-title {
       width: 80%;
-  }
+    }
 
 
-    /* Styling for More Articles */
-    .more-articles-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-        width: 100%;
+    .show-text {
+        display: none;
+    }
+
+
+    /* Styling for remaining articles on page*/
+    .regular-article {
+        margin: 0 0 1.2rem 0;
     }
 
 
@@ -101,7 +123,7 @@
         margin-left: 0.5rem;
     }
 
-    
+
     /* Layout and styling for the subscription section */
     .input {
         width: 80%;
