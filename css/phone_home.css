@@ -1,3 +1,5 @@
+/* @import url(phone_main.css); */
+
 @media(max-width: 415px) {
 
 
@@ -10,42 +12,6 @@
     .top-section {
         width: 100vw; 
         height: auto;
-    }
-
-
-    /* Styling for top nav bar toggle menu*/
-    .nav-logo-toggle-menu {
-        display: grid;
-        grid-template-columns: 0.5fr 1fr;
-    }
-
-
-    .nav-toggle-menu {
-        grid-column-start: 1;
-    }
-
-
-    .nav-logo {
-        grid-column-start: 2;
-    }
-
-
-    /* Styling to hide nav items (when not toggled) */
-    .nav-menu-item {
-        display: none;
-    }
-
-
-    /* Show nav items when user clicks on menu icon in mobile view */
-    .nav-menu-item-show {
-        display: flex;
-        flex-direction: column;
-        margin-top: 5px;
-    }
-
-
-    .nav-item {
-        padding-top: 5px;
     }
 
 
