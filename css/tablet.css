@@ -8,7 +8,7 @@
     }
 
 
-    .nav-bar-container {
+    /* .nav-bar-container {
         height: 4rem;
         justify-content: space-between;
     }
@@ -41,14 +41,14 @@
     .nav-right-items {
         grid-column: 3 / span 1;
         justify-self: end;
-    }
+    } */
 
  
     /*  Styling for the headline article  */
-    .headline-img,
+    /* .headline-img,
     .article-img-thumbnail {
         width: 100%;
-    }
+    } */
 
 
     /* Styling for the other articles on the page */

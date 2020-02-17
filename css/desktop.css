@@ -1,9 +1,11 @@
-@media(min-width:1100px) {
+@media(min-width:1025px) {
 
-    
-    .nav-bar-toggle {
-        display: none;
+    /*  Styling for the top Nav Bar and Headline Article */
+    .top-section {
+        width: 50vw; 
+        height: auto;
     }
+
 
 
 }

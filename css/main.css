@@ -1,7 +1,7 @@
 @import url(phone_main.css);
 @import url(phone_home.css);
 @import url(tablet.css);
-/* @import url(desktop.css); */
+@import url(desktop.css);
 
 
 /* Universal styling */
@@ -19,7 +19,7 @@ body {
     color: #4a4a4a;
 }
 
- 
+
 /*  General Layout and Styling across all pages  */
 .main-container {
     display: grid;
@@ -56,6 +56,45 @@ body {
 }
 
 
+/* Styling for top nav bar that applies only to tablet and desktop view */
+@media (min-width: 416px) {
+    .nav-bar-container {
+        height: 4rem;
+        justify-content: space-between;
+    }
+
+
+    .nav-logo-toggle-menu {
+        text-align: center;
+    }
+
+
+    .nav-toggle-menu {
+        display: none;
+    }
+
+
+    .nav-menu-item {
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr 0.2fr;
+    }
+
+
+    .nav-left-items {
+        display: flex;
+        justify-content: space-evenly;
+        grid-column: 2 / span 1;
+    }
+
+
+    .nav-right-items {
+        grid-column: 3 / span 1;
+        justify-self: end;
+    }
+}
+
+
+
 .nav-toggle-menu {
     cursor: pointer;
 }
@@ -72,6 +111,11 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+
+.headline-img {
+    width: 100%;
 }
 
 
