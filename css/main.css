@@ -24,7 +24,7 @@ body {
 .main-container {
     display: grid;
     grid-gap: 2rem;
-    justify-items: center;
+    justify-content: center;
 }
 
 
@@ -32,7 +32,6 @@ body {
     border-radius: 5px;
     border: 1px solid gray;
     font-size: 1rem;
-    width: 200px;
     height: 2.5rem;
 }
 
@@ -47,7 +46,6 @@ body {
 
 /* Styling for top nav bar */
 .nav-bar-container {
-    /* background-color: #ffc0cb; */
     display: flex;
     flex-direction: column;
     padding: 16px 0 16px 16px;
@@ -56,8 +54,174 @@ body {
 }
 
 
+.nav-toggle-menu {
+    cursor: pointer;
+}
+
+
+.toggle-menu {
+    width: 14px;
+    height: 14px;
+}
+
+
+/* Headline Article Section */
+.headline-article-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.headline-img {
+    width: 100%;
+}
+
+
+.headline-description {
+    position: relative;
+    width: 80%;
+    margin-top: 0.5rem;
+    bottom: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #fff;
+}
+
+
+.headline-title {
+    margin-top: 1rem;
+}
+
+
+/*   General Layout for all non-headline articles */
+/* .article-container {
+    display: grid;
+    justify-items: center;
+} */
+
+
+/* Layout for subheadline articles */
+.subheadline-article-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+/* General Layout Style for Article Details */
+.article-title {
+    line-height: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.article-text {
+    line-height: 1.5rem;
+}
+
+
+.rating {
+    margin: 0 auto;
+}
+
+
+/* Styling for Headings that add breaks to the page */
+.break-heading {
+    color: #6a6a6a;
+    margin: 3rem auto;
+}
+
+
+/* Styling for all buttons on the page */
+.btn {
+    height: 3rem;
+    background-color: #333;
+    border: hidden;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 2rem auto 4rem auto;
+}
+
+
+/* Layout and Styling for the other articles on the page */
+.other-articles-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+/* Layout and Styling for the Subscribe section */
+.section-divider {
+    width: 90%;
+    height: 0;
+}
+
+
+.subscribe-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.section-divider,
+.subscribe-heading {
+    width: 100%;
+}
+
+
+.subscribe-heading {
+    text-align: center;
+}
+
+
+/* Layout and Styling for the footer */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-links-container {
+    display: flex;
+}
+
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
+.social-media-bar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* Layout for Article Gallery */
+.article-gallery-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+
 /* Styling for top nav bar that applies only to tablet and desktop view */
 @media (min-width: 416px) {
+
+
     .nav-bar-container {
         height: 4rem;
         justify-content: space-between;
@@ -90,162 +254,14 @@ body {
     .nav-right-items {
         grid-column: 3 / span 1;
         justify-self: end;
+    }    
+
+    .btn {
+        margin: 2rem auto 4rem auto;
     }
-}
 
-
-
-.nav-toggle-menu {
-    cursor: pointer;
-}
-
-
-.toggle-menu {
-    width: 14px;
-    height: 14px;
-}
-
-
-/* Headline Article Section */
-.headline-article-card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-
-.headline-img {
-    width: 100%;
-}
-
-
-.headline-description {
-    position: relative;
-    width: 80vw;
-    margin-top: 0.5rem;
-    bottom: 3rem;
-    text-align: center;
-    background-color: #fff;
-    border: 2px solid #fff;
-}
-
-
-.headline-title {
-    margin-top: 1rem;
-}
-
-
-/*   General Layout for all non-headline articles */
-.article-container {
-    display: grid;
-    justify-items: center;
-}
-
-
-/* Layout for subheadline articles */
-.subheadline-article-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-}
-
-/* General Layout Style for Article Details */
-.article-title {
-    line-height: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-
-.article-text {
-    line-height: 1.5rem;
-}
-
-
-.rating {
-    margin: 0 auto;
-}
-
-
-/* Styling for Headings that add breaks to the page */
-.break-heading {
-    color: #6a6a6a;
-    margin: 3rem auto;
-}
-
-
-/* Styling for all buttons on the page */
-.btn {
-    width: 40vw;
-    height: 3rem;
-    background-color: #333;
-    border: hidden;
-    border-radius: 5px;
-    justify-self: center;
-    margin: 2rem 0 2rem 0;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-
-/* Layout and Styling for the Subscribe section */
-.section-divider {
-    width: 90vw;
-    height: 0;
-}
-
-
-.subscribe-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 80vw;
-}
-
-
-.section-divider,
-.subscribe-heading {
-    width: 100%;
-}
-
-
-.subscribe-heading {
-    text-align: center;
-}
-
-
-/* Layout and Styling for the footer */
-.footer-container {
-    display: flex;
-    /* flex-flow: row wrap; */
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    width: 80vw;
-}
-
-
-.footer-links {
-    list-style-type: none;
-    padding: 0;
-}
-
-
-.social-icon {
-    width: 24px;
-    height: 24px;
-}
-
-
-.social-media-bar {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-/* Layout for Article Gallery */
-.article-gallery-container {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+    /* Layout and sytling for remaining articles on page */
+    .other-articles-container {
+        justify-content: space-between;
+    }
 }
