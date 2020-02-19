@@ -1,6 +1,90 @@
-@media (min-width: 416px) and (max-width: 1024px) {
+/* Styling for that applies only to tablet and desktop view */
+@media (min-width: 600px) {
 
 
+    /* Styling for common elements */
+    .btn {
+        width: 14vw;
+        margin: 2rem auto 4rem auto;
+    }
+
+
+    .input {
+        margin: 0 0 3rem 0;
+    }
+
+
+    .input:not(:last-of-type) {
+        margin: 0 1rem 3rem 0;
+    }
+
+    /* Layout for top navigation */
+    .nav-bar-container {
+        height: 4rem;
+        justify-content: space-between;
+    }
+
+
+    .nav-logo-toggle-menu {
+        text-align: center;
+    }
+
+
+    .nav-toggle-menu {
+        display: none;
+    }
+
+
+    .nav-menu-item {
+        display: grid;
+        grid-template-columns: 0.2fr 0.8fr 0.2fr;
+    }
+
+
+    .nav-left-items {
+        display: flex;
+        justify-content: space-evenly;
+        grid-column: 2 / span 1;
+    }
+
+
+    .nav-right-items {
+        grid-column: 3 / span 1;
+        justify-self: end;
+    }    
+
+
+    /* Layout and styling for remaining articles on page */
+    .secondary-subheadline-articles-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .other-articles-container {
+        justify-content: space-between;
+    }
+
+
+    /* Layout for the subscriptio section */
+    .subscribe-heading{
+        margin: 4rem auto;
+    }
+}
+
+
+/* Layout and styling for tablet view */
+@media (min-width: 600px) and (max-width: 1023px) {
+
+    
+    /* Styling for common elements */
+    .input {
+        width: 45%;
+ 
+    }
+
+
+    /* Layout for the entire page */
     .main-container {
         grid-template-columns: 95vw;
     }
@@ -10,7 +94,6 @@
     .article-container {
         grid-template-columns: 1fr;
         grid-gap: 1rem;
-        /* width: 95vw; */
     }
 
 
@@ -27,7 +110,7 @@
     }
 
 
-    .secondary-subheadline-articles-section {
+    .secondary-subheadline-articles-container {
         order: 2;
         width: 40%;
     }
@@ -70,11 +153,6 @@
     }
 
 
-    .subscribe-heading {
-        margin-top: 3rem
-    }
-
-    
     /* Layout and styling for the footer */
     .footer-links-container {
         justify-content: space-evenly;
@@ -85,22 +163,5 @@
     /* Layout and styling for the social media section */
     .social-media-bar {
         margin: 1rem 0;
-    }
-
-
-    .input {
-        width: 45%;
-        margin: 3rem 0;
-    }
-
-
-    .input:not(:last-of-type) {
-        margin-right: 1rem;
-    }
-
-
-    .btn {
-        width: 40vw;
-        /* margin: 2rem 0 4rem 0;     */
     }
 }

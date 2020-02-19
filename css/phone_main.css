@@ -1,5 +1,10 @@
 /* Layout and Styling that applies across all phone view pages */
-@media(max-width: 415px) { 
+@media(max-width: 600px) { 
+
+
+    .btn {
+        width: 150px;
+    }
 
 
     /* Styling for elements that apply throughout the page */
@@ -124,3 +129,16 @@
         margin: 0 0 1rem 0;
     }
 }
+
+@media (max-width: 320px) {
+    .article-title,
+    .rating {
+        font-size: 0.8rem;
+    }
+}
+
+/* @media (max-width: 320px) {
+    .article-title {
+        font-size: 1rem;
+    }
+} */

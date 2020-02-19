@@ -1,39 +1,38 @@
-@media(min-width:1025px) {
+/* Layout and styling that applies to desktop view */
+@media (min-width:1024px) {
 
-   
+
+    /* Styling for common elements */
+    .input {
+        width: 40%;
+    }
+
+
+    /* Layout for the entire page */
     .main-container {
-        grid-template-columns: 50vw;
+        grid-template-columns: 70vw;
     }
 
 
-    /*  Styling for the top Nav Bar and Headline Article */
-    /* Styling for the other articles on the page */
-    .article-container {
-        grid-template-columns: 1fr;
-        grid-gap: 1rem;
-    }
-
-
-     /* Styling for the secondary article  */
-     .main-subheadline-article {
+    /* Styling for the secondary article  */
+    .main-subheadline-article {
         order: 1; 
         width: 55%;
         margin: 0 auto 0 0;
     }
-    
+
 
     .break-heading {
         order: 3;
     }
 
 
-    .secondary-subheadline-articles-section {
+    .secondary-subheadline-articles-container {
         order: 2;
         width: 40%;
     }
 
 
-    /* Styling for the secondary article  */
     .subheadline-article-img {
         width: 100%;
     }
@@ -44,38 +43,16 @@
     }
 
 
+    /* General styling for the article elements */
     .article-img-thumbnail {
         width: 100%;
         height: 240px;
     }
 
     
-
-
     .regular-article {
         width: 30%;
         margin: 0 auto 6rem auto;
-    }
-
-
-    .btn {
-        width: 14vw;
-    }
-
-
-    /* Layout for the subscription section */
-    .subscribe-heading{
-        margin: 4rem auto;
-    }
-
-
-    .input {
-        width: 40%;
-        margin: 0 0 3rem 0;
-    }
-
-    .input:not(:last-of-type) {
-        margin: 0 1rem 0 0;
     }
 
 
@@ -90,5 +67,12 @@
     .social-media-bar {
         margin: 1rem 0;
     }
+}
 
+
+/* Layout for really large screens */
+@media(min-width: 1571px) {
+    .main-container {
+        grid-template-columns: 1100px;
+    }
 }

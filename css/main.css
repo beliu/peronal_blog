@@ -28,11 +28,24 @@ body {
 }
 
 
+/* General styling for commonly used page elements */
 .input {
     border-radius: 5px;
     border: 1px solid gray;
     font-size: 1rem;
     height: 2.5rem;
+}
+
+
+.btn {
+    height: 3rem;
+    background-color: #333;
+    border: hidden;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 2rem auto 4rem auto;
 }
 
 
@@ -95,12 +108,6 @@ body {
 
 
 /*   General Layout for all non-headline articles */
-/* .article-container {
-    display: grid;
-    justify-items: center;
-} */
-
-
 /* Layout for subheadline articles */
 .subheadline-article-container {
     display: flex;
@@ -133,17 +140,6 @@ body {
 }
 
 
-/* Styling for all buttons on the page */
-.btn {
-    height: 3rem;
-    background-color: #333;
-    border: hidden;
-    border-radius: 5px;
-    color: #fff;
-    font-size: 1rem;
-    cursor: pointer;
-    margin: 2rem auto 4rem auto;
-}
 
 
 /* Layout and Styling for the other articles on the page */
@@ -215,53 +211,4 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-}
-
-
-/* Styling for top nav bar that applies only to tablet and desktop view */
-@media (min-width: 416px) {
-
-
-    .nav-bar-container {
-        height: 4rem;
-        justify-content: space-between;
-    }
-
-
-    .nav-logo-toggle-menu {
-        text-align: center;
-    }
-
-
-    .nav-toggle-menu {
-        display: none;
-    }
-
-
-    .nav-menu-item {
-        display: grid;
-        grid-template-columns: 0.2fr 0.8fr 0.2fr;
-    }
-
-
-    .nav-left-items {
-        display: flex;
-        justify-content: space-evenly;
-        grid-column: 2 / span 1;
-    }
-
-
-    .nav-right-items {
-        grid-column: 3 / span 1;
-        justify-self: end;
-    }    
-
-    .btn {
-        margin: 2rem auto 4rem auto;
-    }
-
-    /* Layout and sytling for remaining articles on page */
-    .other-articles-container {
-        justify-content: space-between;
-    }
 }

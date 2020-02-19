@@ -1,9 +1,7 @@
-@media(max-width: 415px) {
+@media(max-width: 600px) {
 
 
-    .btn {
-        width: 40%;
-    }
+
 
 
     /* Styling for the subheadline article  */
@@ -17,7 +15,7 @@
     }
 
 
-    .secondary-subheadline-articles-section {
+    .secondary-subheadline-articles-container {
         order: 3;
     }
 
