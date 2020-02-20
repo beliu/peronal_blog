@@ -20,20 +20,13 @@
 
 
     #main-logo {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
 
     /* Layout for top navigation */
-    /* .nav-bar-banner {
-        width: 100vw;
-        border-style: none none groove none;
-
-    } */
-
-
     .nav-bar-container {
-        height: 4rem;
+        height: 6rem;
         justify-content: space-between;
     }
 
@@ -52,6 +45,7 @@
     .nav-menu-item {
         display: grid;
         grid-template-columns: 0.2fr 0.8fr 0.2fr;
+        align-items: end;
     }
 
 
@@ -70,8 +64,11 @@
 
     /* Layout and styling for remaining articles on page */
     .secondary-subheadline-articles-container {
-        display: flex;
-        flex-direction: column;
+        /* display: flex;
+        flex-direction: column; */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
     }
 
 
@@ -99,7 +96,8 @@
 
 
     /* Layout for the entire page */
-    .main-container {
+    .main-container,
+    .nav-bar-container {
         grid-template-columns: 95vw;
     }
 

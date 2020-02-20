@@ -43,7 +43,7 @@
     }
 
 
-    .regular-article-card {
+    .regular-article-link {
         display: flex;
         flex-direction: row;
         height: 7rem;

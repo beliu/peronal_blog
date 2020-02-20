@@ -29,13 +29,23 @@ body {
 }
 
 
+/* General styling for commonly used page elements */
+.headline-article-card,
 .article-card {
     background-color: #fff;
     box-shadow: 0 1px 1px rgba(173,168,168, 0.1);
 }
 
 
-/* General styling for commonly used page elements */
+.article-card {
+    padding: 0 0 2rem 0;
+}
+
+
+.article-description {
+    padding: 0 1rem 0 1rem;
+}
+
 .input {
     border-radius: 5px;
     border: 1px solid gray;
@@ -71,12 +81,16 @@ body {
 
 
 /* Styling for top nav bar */
-.nav-bar-container {
-    display: flex;
-    flex-direction: column;
-    padding: 1rem 0 1rem 1rem;
+.nav-bar-banner {
+    background-color: #fff;
     border-style: none none groove none;
-    margin-bottom: 0;
+}
+
+
+.nav-bar-container {
+    display: grid;
+    justify-content: center;
+    padding: 1rem 0 1rem 0;
 }
 
 
@@ -92,7 +106,7 @@ body {
 
 
 /* Headline Article Section */
-.headline-article-card{
+.headline-article-link{
     display: flex;
     flex-direction: column;
     align-items: center;

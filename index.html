@@ -16,36 +16,35 @@
     <title>Yummy Xiao Bao</title>
 </head>
 <body>
-    <div class="main-container">
-        <!-- Top section contains nav bar and headline article -->
-        <div class="top-section">
-            <!-- Nav bar section contains the nav bar toggle and the menu items -->
-            <div class="nav-bar-banner">
-                <nav class="nav-bar-container">
-                    <!-- Nav Bar Logo and Mobile Menu Toggle -->
-                    <div class="nav-logo-toggle-menu">
-                        <img src="media/menu.png" class="nav-toggle-menu toggle-menu">
-                        <a id="main-logo" class="nav-logo" href="">Yummy Xiao Bao</a>
-                    </div>
-                    <!-- Menu of Nav Bar Items -->
-                    <div class="nav-menu-item">
-                        <div class="nav-left-items">
-                            <a class="nav-item" href="#read">READ</a>
-                            <a class="nav-item" href="#watch">WATCH</a>
-                            <a class="nav-item" href="#listen">LISTEN</a>
-                            <a class="nav-item" href="#contact">CONTACT</a>
-                            <a class="nav-item" href="#search">SEARCH</a>
-                        </div>
-                        <div class="nav-right-items">
-                            <a class="nav-item" href="#signup">SIGN UP</a>
-                        </div>
-                    </div>
-                </nav>
+    <div class="nav-bar-banner">
+        <nav class="nav-bar-container">
+            <!-- Nav Bar Logo and Mobile Menu Toggle -->
+            <div class="nav-logo-toggle-menu">
+                <img src="media/menu.png" class="nav-toggle-menu toggle-menu">
+                <a id="main-logo" class="nav-logo" href="">Yummy Xiao Bao</a>
             </div>
+            <!-- Menu of Nav Bar Items -->
+            <div class="nav-menu-item">
+                <div class="nav-left-items">
+                    <a class="nav-item" href="#read">READ</a>
+                    <a class="nav-item" href="#watch">WATCH</a>
+                    <a class="nav-item" href="#listen">LISTEN</a>
+                    <a class="nav-item" href="#contact">CONTACT</a>
+                    <a class="nav-item" href="#search">SEARCH</a>
+                </div>
+                <div class="nav-right-items">
+                    <a class="nav-item" href="#signup">SIGN UP</a>
+                </div>
+            </div>
+        </nav>
+    </div>
 
+    <!-- The content portion of the page -->
+    <div class="main-container">
+        <div class="top-section">
             <!-- The headline article -->
-            <article class="article-card">
-                <a href="" class="headline-article-card">
+            <article class="headline-article-card">
+                <a href="" class="headline-article-link">
                     <img src="media/headline_img.jpeg" alt="little baby bum banner" class="headline-img">
                     <div class="headline-description">
                         <h3 class="headline-title article-title">Your Kid Will Laugh and Learn <br> with Little Baby Bum</h3>
@@ -59,27 +58,36 @@
         <div class="article-container">
             <div class="subheadline-article-container">
                 <!-- The subheadline article -->
-                <article class="main-subheadline-article">
-                    <a href="" class="main-subheadline-article-card">
+                <article class="main-subheadline-article article-card">
+                    <a href="" class="main-subheadline-article-link">
                         <img src="media/wonder_ball.jpeg" alt="wonder ball banner" class="subheadline-article-img">
-                        <h3 class="article-title">Fantastic Animation and Fart Jokes. A Winning Combo.</h3>
-                        <p class='rating'>Rating: 👶👶👶👶</p>
+                        <div class="article-description">
+                            <h3 class="article-title">Fantastic Animation and Fart Jokes. A Winning Combo.</h3>
+                            <p class='rating'>Rating: 👶👶👶👶</p>
+                            <p class="article-text-peek show-text">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                                ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est. 
+                                Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. 
+                                Fusce id velit ut tortor pretium viverra. Semper viverra nam libero justo laoreet sit.
+                                Urna et pharetra pharetra massa massa ultricies mi.
+                            </p>
+                        </div>
                     </a>
-                    <p class="article-text-peek show-text">
+                    <!-- <p class="article-text-peek show-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est. 
                         Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. 
                         Fusce id velit ut tortor pretium viverra. Semper viverra nam libero justo laoreet sit.
                         Urna et pharetra pharetra massa massa ultricies mi.
-                    </p>
+                    </p> -->
                 </article>
             
                 <h4 class="break-heading">MORE POSTS</h4>
             
                 <!-- The remaining articles -->
                 <div class="secondary-subheadline-articles-container">
-                    <article class="secondary-subheadline-article">
-                        <a href=""  class="regular-article-card">                    
+                    <article class="secondary-subheadline-article article-card">
+                        <a href=""  class="regular-article-link">                    
                             <img src="media/llama_llama_thumbnail.jpeg" alt="llama thumbnail" class="article-img-thumbnail">
                             <div class="article-description">
                                 <h4 class="article-title">Mom is a Superhero ... and Dad is AWOL</h4>
@@ -88,8 +96,8 @@
                         </a>
                     </article>
             
-                    <article class="secondary-subheadline-article">
-                        <a href="" class="regular-article-card">
+                    <article class="secondary-subheadline-article article-card">
+                        <a href="" class="regular-article-link">
                             <img src="media/paw_patrol.jpeg" alt="paw patrol thumbnail" class="article-img-thumbnail">
                             <div class="article-description"> 
                                 <h4 class="article-title">Everybody's Favorite ... but a Little Bland.</h4>
@@ -101,8 +109,8 @@
             </div>
             
             <div class="other-articles-container">
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>
@@ -112,8 +120,8 @@
                 </article>
 
                 
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>
@@ -122,8 +130,8 @@
                     </a>
                 </article>
 
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>
@@ -133,8 +141,8 @@
                 </article>
             
 
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>
@@ -143,8 +151,8 @@
                     </a>
                 </article>
 
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>
@@ -153,8 +161,8 @@
                     </a>
                 </article>
 
-                <article class="regular-article">
-                    <a href="" class="regular-article-card" >
+                <article class="regular-article article-card">
+                    <a href="" class="regular-article-link" >
                         <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
                         <div class="article-description">
                             <h4 class="article-title">The Second British Invasion is Upon Us</h4>

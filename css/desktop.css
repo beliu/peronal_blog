@@ -9,7 +9,8 @@
 
 
     /* Layout for the entire page */
-    .main-container {
+    .main-container,
+    .nav-bar-container {
         grid-template-columns: 70vw;
     }
 
@@ -39,7 +40,7 @@
 
 
     .secondary-subheadline-article {
-        margin: 0 0 2rem 0;
+        /* margin: 0 0 2rem 0; */
     }
 
 
@@ -52,7 +53,7 @@
     
     .regular-article {
         width: 30%;
-        margin: 0 auto 6rem auto;
+        margin: 0 0 6rem 0;
     }
 
 
@@ -72,7 +73,8 @@
 
 /* Layout for really large screens */
 @media(min-width: 1571px) {
-    .main-container {
+    .main-container,
+    .nav-bar-container {
         grid-template-columns: 1100px;
     }
 }
