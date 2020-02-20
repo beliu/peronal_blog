@@ -2,10 +2,15 @@
 @media(max-width: 600px) { 
 
 
+    /* Styling for common elements */
     .btn {
         width: 150px;
     }
 
+
+    #main-logo {
+        font-size: 1.5rem;
+    }
 
     /* Styling for elements that apply throughout the page */
     .main-container{
@@ -24,7 +29,8 @@
     /* Styling for top nav bar toggle menu*/
     .nav-logo-toggle-menu {
         display: grid;
-        grid-template-columns: 0.5fr 1fr;
+        grid-template-columns: 0.5fr 1fr 0.5fr;
+        align-items: center;
     }
 
 
@@ -130,7 +136,16 @@
     }
 }
 
+
+/* Layout and Styling for really small phones */
 @media (max-width: 320px) {
+
+
+    #main-logo {
+        font-size: 1.2rem;
+    }
+
+
     .article-title,
     .rating {
         font-size: 0.8rem;

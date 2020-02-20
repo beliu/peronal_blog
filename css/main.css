@@ -3,18 +3,18 @@
 @import url(tablet.css);
 @import url(desktop.css);
 
-
 /* Universal styling */
 a, 
 a:link, 
 a:visited {
     text-decoration: none;
-    
+    color: #333;
 }
 
 
 body {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* Remove default margin from top and bottom of page */
     margin: 0;
     color: #4a4a4a;
 }
@@ -57,11 +57,17 @@ body {
 }
 
 
+#main-logo {
+    font-family: 'Knewave', cursive;
+    color: #8ac6d1;
+}
+
+
 /* Styling for top nav bar */
 .nav-bar-container {
     display: flex;
     flex-direction: column;
-    padding: 16px 0 16px 16px;
+    padding: 1rem 0 1rem 1rem;
     border-style: none none groove none;
     margin-bottom: 0;
 }
@@ -123,8 +129,9 @@ body {
 }
 
 
-.article-text {
+.article-text-peek {
     line-height: 1.5rem;
+    font-weight: 300;
 }
 
 

@@ -18,6 +18,12 @@
         margin: 0 1rem 3rem 0;
     }
 
+
+    #main-logo {
+        font-size: 1.5rem;
+    }
+
+
     /* Layout for top navigation */
     .nav-bar-container {
         height: 4rem;
@@ -27,6 +33,7 @@
 
     .nav-logo-toggle-menu {
         text-align: center;
+        margin: 0 0 1rem 0;
     }
 
 

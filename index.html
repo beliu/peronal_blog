@@ -9,6 +9,10 @@
     <!-- Menu Toggle Script in Mobile View -->
     <script src="scripts/menu_toggle.js" defer></script>
 
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+
     <title>Yummy Xiao Bao</title>
 </head>
 <body>
@@ -19,11 +23,8 @@
             <nav class="nav-bar-container">
                 <!-- Nav Bar Logo and Mobile Menu Toggle -->
                 <div class="nav-logo-toggle-menu">
-                    <div class="nav-toggle-menu">
-                        <!-- <i class="fas fa-bars"></i> -->
-                        <img src="media/menu.png" class="toggle-menu">
-                    </div>
-                    <a class="nav-logo" href="">Yummy Xiao Bao</a>
+                    <img src="media/menu.png" class="nav-toggle-menu toggle-menu">
+                    <a id="main-logo" class="nav-logo" href="">Yummy Xiao Bao</a>
                 </div>
                 <!-- Menu of Nav Bar Items -->
                 <div class="nav-menu-item">
@@ -62,7 +63,7 @@
                         <h3 class="article-title">Fantastic Animation and Fart Jokes. A Winning Combo.</h3>
                         <p class='rating'>Rating: 👶👶👶👶</p>
                     </a>
-                    <p class="article-text show-text">
+                    <p class="article-text-peek show-text">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
                         ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est. 
                         Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. 
@@ -179,7 +180,7 @@
         
         
         <div class="footer-container">
-            <h3 class="footer-logo">Yummy Xiao Bao</h3>           
+            <h3 id="main-logo" class="footer-logo">Yummy Xiao Bao</h3>           
             <ul class="footer-links footer-links-container">
                 <li>
                     <a href="">All Articles</a>
