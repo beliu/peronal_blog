@@ -16,7 +16,6 @@
     .main-container{
         grid-template-columns: 90vw;
         justify-content: center;
-        /* justify-items: center; */
     }
 
 

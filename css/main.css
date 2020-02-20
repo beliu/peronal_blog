@@ -17,6 +17,7 @@ body {
     /* Remove default margin from top and bottom of page */
     margin: 0;
     color: #4a4a4a;
+    background-color: #f4f4f4;
 }
 
 
@@ -25,6 +26,12 @@ body {
     display: grid;
     grid-gap: 2rem;
     justify-content: center;
+}
+
+
+.article-card {
+    background-color: #fff;
+    box-shadow: 0 1px 1px rgba(173,168,168, 0.1);
 }
 
 

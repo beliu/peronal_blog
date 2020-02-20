@@ -25,6 +25,13 @@
 
 
     /* Layout for top navigation */
+    /* .nav-bar-banner {
+        width: 100vw;
+        border-style: none none groove none;
+
+    } */
+
+
     .nav-bar-container {
         height: 4rem;
         justify-content: space-between;
