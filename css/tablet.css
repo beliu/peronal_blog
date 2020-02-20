@@ -24,6 +24,12 @@
     }
 
 
+    .article-description {
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    
+
     /* Layout for top navigation */
     .nav-bar-container {
         height: 6rem;
@@ -62,10 +68,19 @@
     }    
 
 
+    /* Styling for headline section */
+    .headline-title {
+        font-size: 1.5rem;
+    }
+
+
     /* Layout and styling for remaining articles on page */
+    .subheadline-title {
+        font-size: 1.2rem;
+    }
+
+
     .secondary-subheadline-articles-container {
-        /* display: flex;
-        flex-direction: column; */
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 2rem;
@@ -77,7 +92,7 @@
     }
 
 
-    /* Layout for the subscriptio section */
+    /* Layout for the subscription section */
     .subscribe-heading{
         margin: 4rem auto;
     }
@@ -132,11 +147,6 @@
     .subheadline-article-img {
         width: 100%;
         height: 45%;
-    }
-
-
-    .secondary-subheadline-article {
-        margin: 0 0 1.2rem 0;
     }
 
 

@@ -37,15 +37,6 @@ body {
 }
 
 
-.article-card {
-    padding: 0 0 2rem 0;
-}
-
-
-.article-description {
-    padding: 0 1rem 0 1rem;
-}
-
 .input {
     border-radius: 5px;
     border: 1px solid gray;
@@ -96,6 +87,11 @@ body {
 
 .nav-toggle-menu {
     cursor: pointer;
+}
+
+
+.nav-item {
+    font-weight: 600;
 }
 
 

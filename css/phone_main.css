@@ -12,7 +12,20 @@
         font-size: 1.5rem;
     }
 
-    /* Styling for elements that apply throughout the page */
+
+    .input {
+        width: 80%;
+        margin: 0.5rem 0;
+    }
+
+
+    .article-title,
+    .rating {
+        font-size: 0.8rem;
+    }
+
+
+    /* Styling that main content area */
     .main-container{
         grid-template-columns: 90vw;
         justify-content: center;
@@ -25,6 +38,12 @@
         justify-self: center;
     }
         
+
+    .headline-title {
+        font-size: 1.1rem;
+    }
+
+
     /* Styling for top nav bar toggle menu*/
     .nav-logo-toggle-menu {
         display: grid;
@@ -80,6 +99,11 @@
 
 
     /* Layout for the other articles section */
+    .subheadline-title {
+        font-size: 1rem;
+    }
+
+
     .other-articles-container {
         justify-content: center;
     }
@@ -97,18 +121,7 @@
     }
 
 
-    .input {
-        width: 80%;
-        margin: 0.5rem 0;
-    }
-
-
     /* Layout and Styling for footer */
-    /* .footer-container {
-        width: 100%;
-    } */
-
-
     .footer-links-container {
         flex-direction: column;
     }
@@ -144,15 +157,8 @@
         font-size: 1.2rem;
     }
 
-
-    .article-title,
-    .rating {
-        font-size: 0.8rem;
+    .headline-title,
+    .subheadline-title {
+        font-size: 0.9rem;
     }
 }
-
-/* @media (max-width: 320px) {
-    .article-title {
-        font-size: 1rem;
-    }
-} */
