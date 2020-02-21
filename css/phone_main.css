@@ -109,18 +109,6 @@
     }
 
 
-    /* Layout for the subscription section */
-    .subscribe-container {
-        width: 80%;
-        margin: 0 auto;
-    }
-
-
-    .subscribe-heading {
-        margin-top: 3rem
-    }
-
-
     /* Layout and Styling for footer */
     .footer-links-container {
         flex-direction: column;

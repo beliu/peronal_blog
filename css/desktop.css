@@ -2,12 +2,6 @@
 @media (min-width:1024px) {
 
 
-    /* Styling for common elements */
-    .input {
-        width: 40%;
-    }
-
-
     /* Layout for the entire page */
     .main-container,
     .nav-bar-container {
@@ -49,6 +43,17 @@
     .regular-article {
         width: 30%;
         margin: 0 0 6rem 0;
+    }
+
+
+    .regular-article:nth-last-child(-n+3) {
+        margin: 0;
+    }
+
+
+    /* Styling for subscription section */
+    .subscribe-input-container {
+        width: 50%;
     }
 
 
