@@ -31,13 +31,6 @@
     }
 
 
-    .vertical-divider {
-        height: 20px;
-        color: #d3d3d3;
-        margin: auto 1rem;
-    }
-
-
     /* Layout for social media section */
     .social-media-section {
         display: flex;

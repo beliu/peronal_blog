@@ -5,61 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Menu Toggle Script in Mobile View -->
+    <script src="scripts/menu_toggle.js" defer></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Knewave&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
+
     <title>Can't Go Wrong with Little Baby Bum</title>
 </head>
 <body>
-    <div class="main-container">
-        <div class="top-section">
-        <!-- Nav bar section contains the nav bar toggle and the menu items -->
-            <!-- <div class="nav-bar-container"> -->
-            <nav class="nav-bar">
-                <!-- Nav Bar Logo and Mobile Menu Toggle -->
-                <div class="nav-logo-toggle-menu">
-                    <div class="nav-toggle-menu">
-                        <!-- <i class="fas fa-bars"></i> -->
-                        <img src="media/menu.png" class="toggle-menu">
-                    </div>
-                    <a class="nav-logo" href="">Yummy Xiao Bao</a>
-                </div>
-                <!-- Menu of Nav Bar Items -->
-                <div class="nav-menu-item">
+    <!-- The top navigation for each page -->
+    <div class="nav-bar-banner">
+        <nav class="nav-bar-container">
+            <!-- Nav Bar Logo and Mobile Menu Toggle -->
+            <div class="nav-logo-toggle-menu">
+                <img src="media/menu.png" class="nav-toggle-menu toggle-menu">
+                <a id="main-logo" class="nav-logo" href="">Yummy Xiao Bao</a>
+            </div>
+            <!-- Menu of Nav Bar Items -->
+            <div class="nav-menu-item">
+                <div class="nav-left-items">
                     <a class="nav-item" href="#read">READ</a>
                     <a class="nav-item" href="#watch">WATCH</a>
                     <a class="nav-item" href="#listen">LISTEN</a>
                     <a class="nav-item" href="#contact">CONTACT</a>
                     <a class="nav-item" href="#search">SEARCH</a>
+                </div>
+                <div class="nav-right-items">
                     <a class="nav-item" href="#signup">SIGN UP</a>
                 </div>
-            </nav>
-            <!-- </div> -->
-        </div>
+            </div>
+        </nav>
+    </div>
 
-        <div class="article-section">
-            <h2 class="article-title">Can't Go Wrong with Little Baby Bum</h2>
-            <h3 class="sub-title">Catchy updates of nursery rhymes for your kid to veg out to</h3>
+    <div class="main-container">
+        <div class="article-container">
+            <div class="article-heading">            
+                <h1 class="article-page-title">Can't Go Wrong with Little Baby Bum</h1>
+                <h3 class="sub-title">Catchy updates of nursery rhymes for your kid to veg out to</h3>
+            </div>
             <div class="profile-info">
                 <img class="profile-pic" src="media/profile.png" alt="profile picture">
                 <p class="profile-text">By Miranda Liu</p>
                 <hr class="vertical-divider">
                 <p class="profile-text">Jan 24, 2020</p>
             </div>
-            <img src="media/headline_img.jpeg" alt="little baby bum video banner" class="headline-img">
-            <p class="article-text-peek">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-                ut labore et dolore magna aliqua. Mi quis hendrerit dolor magna eget est. 
-                Dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in. 
-                Fusce id velit ut tortor pretium viverra. Semper viverra nam libero justo laoreet sit. 
-                Urna et pharetra pharetra massa massa ultricies mi. Quis commodo odio aenean sed adipiscing. 
-                Diam sit amet nisl suscipit. Eget sit amet tellus cras adipiscing enim eu. 
-                Ac turpis egestas sed tempus urna et pharetra. Dui accumsan sit amet nulla facilisi. 
-                Accumsan in nisl nisi scelerisque eu ultrices vitae. A pellentesque sit amet porttitor. 
-                Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
-            </p>
+
+            <div class="headline-img-wrapper">
+                <img src="media/headline_img.jpeg" alt="little baby bum video banner" class="headline-img">
+                <figcaption>How much is too much ice cream?</figcaption>
+            </div>
+
+            <div class="article-text-wrapper">
+                <p class="article-text">
+                    The ennui of sitting through countless hours of kids' "entertainment" is comething all parents must accept.
+                    My parents tell me that when I was a wee toddler myself, I would watch this cheaply-produced
+                    and simplisitic sing-along show on some channel that is now long gone. According to them, I loved it and
+                    they drank wine while waiting for the show to end (hope that "drinking in front of your toddler" part was a joke, mom and dad).
+                    That show in essence finds its spiritual successor in <em>Little Baby Bum</em>. Of course when we were kids, all
+                    shows were about half-an-hour long and could only be seen on TV at certain hours. Today's kids have the great fortune of
+                    being able to watch hours of content, on-demand, on YouTube. What that means is modern-day parents have to not only
+                    sit through these shows for much longer, and at anytime of the day, it also means we have to engage in a daily battle
+                    to limit our kids' screentime. Tell your parents that this generation of parents do in fact have a harder job than they did,
+                    regardless of whatever "modern conveneiences" they argue that we enjoy.
+                    <br>
+                    <br>
+                    Alright, let's focus on the show. If you are a fully-grown adult, then this show will bore you. It mostly consists of CG animated
+                    music videos for classic nurser rhymes such as "Hickery Dickery Dock" and "Twinkle Twinkle Little Star". But obviously, this isn't
+                    about you is it? I started to let my 2-year-old watch this before he could even speak a single intelligble syllable. Within a month,
+                    he started to sing along to "ABC" and "Shapes Train". This show was teaching him things! I began to enjoy watching the show just to
+                    hear him garble out words like square and orange. So a little mind-numbing? Yes. Educational? Definitely. And that's really more
+                    important. I will say that it is apparent many parents think the same way because the YouTube channel behind the show has amassed
+                    millions of subscribers. That must have opened the cash spigot because sometime two years ago, I noticed a dramatic improvement
+                    in animation quality. The characters started to look professionaly done, and not like they were drawn by an art student trying 
+                    to learn how to use the animation software in order to fit multiple ovals together to form a face. They also extended beyond
+                    familiar nursery rhymes into original songs. Most of them are misses, especially the hip-hop inspired ones. However, I must
+                    admit that a few of them are quite catchy. One song in particular about connecting the dots uses a punk-rock motif that is
+                    an ear-worm, even if you aren't sure what is so punk about connecting dots. 
+                    <br>
+                    <br>
+                    If you have a 2 or 3-year-old that can't follow even simple plotlines yet, then give <em>Little Baby Bum</em> a try. There are quite
+                    a few channels on YouTube that do the same thing, but I found the variety of songs on this channel to be the greatest. The singers
+                    have nice voices, and you may be surprised to learn that some song channels feature below-average singers. The animation improves over time.
+                    Besides all those maybe-technical aspects, the show is charming, with its own recurring cast. It's a totally safe-for-kids channel and it will
+                    help your child learn to speak and sing. And that's when you break out your camera and record several dozen gigabytes of video, because
+                    that's what modern-day parenting is all about.
+                </p>
+            </div>           
         </div>
 
         <div class="social-media-section">
-            <h4>Connect with Us!</h4>
-            <div class="social-media-bar">
+            <h3 class="social-heading">Connect with Us!</h3>
+            <div class="social-media-bar article-social-media-bar">
                 <a href="">
                     <img class="social-icon" src="media/facebook.png">
                 </a>
@@ -74,58 +114,91 @@
                 </a>
             </div>
         </div>
+               
+        <h3 class="break-heading">MORE POSTS</h3>
         
-        <div class="article-gallery-container">
-            <a href="" class="article-gallery-card">
-                <img src="media/spongebob_thumbnail.jpeg" alt="spongebob square pants" class="article-img-thumbnail">
-                <h4 class="gallery-title">A Guilty Pleasure for Parents</h4>
-            </a>
+        <div class="other-articles-container">          
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
 
-            <a href="" class="article-gallery-card">
-                <img src="media/paw_patrol_thumbnail.jpeg" alt="paw patrol" class="article-img-thumbnail">
-                <h4 class="gallery-title">Everyone's Favorite ... but a Little Bland</h4>
-            </a>
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
 
-            <a href="" class="article-gallery-card">
-                <img src="media/llama_llama_thumbnail.jpeg" alt="llama llama" class="article-img-thumbnail">
-                <h4 class="gallery-title">Single Mom Power!</h4>
-            </a>
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
+        
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
 
-            <a href="" class="article-gallery-card">
-                <img src="media/bob_the_train_thumbnail.jpeg" alt="bob the train" class="article-img-thumbnail">
-                <h4 class="gallery-title">You Can Do Better Than This</h4>
-            </a>
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
 
-            <a href="" class="article-gallery-card">
-                <img src="media/babybus_thumbnail.jpeg" alt="baby bus" class="article-img-thumbnail">
-                <h4 class="gallery-title">Cute Pandas Eating Too Many Doughnuts</h4>
-            </a>
-
-            <a href="" class="article-gallery-card">
-                <img src="media/awesmr_thumbnail.jpeg" alt="awesmr arts and crafts" class="article-img-thumbnail">
-                <h4 class="gallery-title">Now I Have to Buy More Playdoh Now</h4>
-            </a>
+            <article class="regular-article article-card">
+                <a href="" class="regular-article-link" >
+                    <img src="media/peppa_pig_thumbnail.jpeg" alt="peppa pig thumbnail" class="article-img-thumbnail">    
+                    <div class="article-description">
+                        <h4 class="article-title">The Second British Invasion is Upon Us</h4>
+                        <p class='rating'>Rating: 👶👶👶</p>
+                    </div>
+                </a>
+            </article>
+        </div>
+   
+        <div class="load-btn-container">
+            <button class="btn">LOAD MORE</button>
         </div>
 
-        <button class=" btn">Load More ... </button>
-
-        <footer class="footer">
-            <h3 class="footer-logo">Yummy Xiao Bao</h3>           
-            <ul class="footer-links">
+        <footer class="footer-container article-footer-container">
+            <h3 id="main-logo" class="footer-logo">Yummy Xiao Bao</h3>           
+            <ul class="footer-links footer-links-container article-footer-links-container">
                 <li>
-                    <a href="">All Articles</a>
+                    <a class="nav-item" href="">All Articles</a>
                 </li>
                 <li>
-                    <a href="">About Us</a>
+                    <a class="nav-item" href="">About Us</a>
                 </li>
                 <li>
-                    <a href="">Contact</a>
+                    <a class="nav-item" href="">Contact</a>
                 </li>
                 <li>
-                    <a href="">Write for Us</a>
+                    <a class="nav-item" href="">Write for Us</a>
                 </li>
             </ul>
-        </footer>
-    </div>
+    </footer>
 </body>
 </html>

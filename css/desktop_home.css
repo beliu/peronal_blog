@@ -9,6 +9,12 @@
     }
 
 
+    /* Styling for common elements */
+    .btn {
+        width: 15vw;
+    }
+
+    
     /* Styling for the secondary article  */
     .main-subheadline-article {
         order: 1; 
@@ -17,7 +23,7 @@
     }
 
 
-    .break-heading {
+    .break-heading-order {
         order: 3;
     }
 
