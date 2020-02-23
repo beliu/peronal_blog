@@ -5,7 +5,7 @@
     /* Layout for the entire page */
     .main-container,
     .nav-bar-container {
-        grid-template-columns: 70vw;
+        grid-template-columns: 80vw;
     }
 
 
@@ -42,12 +42,12 @@
     /* General styling for the article elements */
     .article-img-thumbnail {
         width: 100%;
-        height: 240px;
+        height: 200px;
     }
 
     
     .regular-article {
-        width: 30%;
+        width: 32%;
         margin: 0 0 6rem 0;
     }
 
@@ -73,6 +73,15 @@
     /* Layout and styling for the social media section */
     .social-media-bar {
         margin: 1rem 0;
+    }
+}
+
+
+/* Layout for large screens */
+@media(min-width: 1400px) and (max-width: 1570px) {
+    .main-container,
+    .nav-bar-container {
+        grid-template-columns: 60vw;
     }
 }
 

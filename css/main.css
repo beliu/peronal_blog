@@ -1,8 +1,10 @@
 @import url(phone_main.css);
 @import url(phone_home.css);
 @import url(tablet_home.css);
+@import url(tablet_article.css);
 @import url(desktop_home.css);
 @import url(desktop_article.css);
+
 
 /* Universal styling */
 a, 
@@ -176,6 +178,7 @@ figcaption {
     justify-content: center;
 }
 
+
 /* Layout and Styling for the Subscribe section */
 .subscribe-container {
     display: flex;
@@ -239,11 +242,17 @@ figcaption {
 }
 
 
-/* Layout and Styling for the Article Page */
+/** Layout and Styling for the Article Page **/
 /* Layout and Styling for the author profile information */
 .profile-info {
     display: flex;
     align-items: center;
+}
+
+
+.profile-pic {
+    border-radius: 50%;
+    margin: 0 1.5rem 0 0;
 }
 
 
@@ -254,7 +263,47 @@ figcaption {
 }
 
 
+/* Styling for the headline title */
+.article-page-title {
+    font-family: 'Bree Serif', 'Serif';
+    line-height: 2.5rem;
+    margin: 1rem 0;
+}
+
+
+.sub-title {
+    font-weight: lighter;
+    line-height: 1.7rem;
+}
+
+
 /* Layout and Styling for the article image */
 .headline-img-wrapper {
     margin: 2rem 0;
+}
+
+
+/* Layout and Styling for the social media section */
+.social-media-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 4rem;
+    background-color: #beebe9;
+    text-align: center;
+    width: 100vw;
+    justify-self: center;
+    padding: 2rem 0;
+}
+
+
+.social-heading {
+    font-size: 1.5rem;
+}
+
+
+/* Layout and Styling for the article footer */
+.article-footer-container {
+    background-color: #fbf4f9;
+    width: 100vw;
+    justify-self: center;
 }

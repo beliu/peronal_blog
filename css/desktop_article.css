@@ -16,51 +16,18 @@
 
 
     .article-page-title {
-        font-family: 'Bree Serif', 'Serif';
         font-size: 3rem;
-        line-height: 2.5rem;
-        margin: 1rem 0;
     }
 
 
     .sub-title {
-        font-weight: normal;
-        font-size: 1.5rem;
-        margin: 2rem 0;
-        line-height: 1.7rem;
+        margin: 1.5rem 0 0.5rem 0
     }
 
 
     .profile-pic {
         width: 48px;
         height: 48px;
-        border-radius: 50%;
-        margin: 0 1rem 0 0;
-    }
-
-
-    /* Styling for article text */
-    .article-text {
-        font-size: 1.2rem;
-        line-height: 2.5rem;
-    }
-
-
-    /* Layout and styling for social media section*/
-    .social-media-section {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 4rem;
-        background-color: #beebe9;
-        text-align: center;
-        width: 100vw;
-        justify-self: center;
-        padding: 2rem 0;
-    }
-
-
-    .social-heading {
-        font-size: 1.5rem;
     }
 
 

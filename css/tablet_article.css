@@ -1,0 +1,27 @@
+/* Styling for that applies only to tablet and desktop view */
+@media (min-width: 600px) {
+
+    
+    /* Styling for the headline title */
+    .sub-title {
+        font-size: 1.2rem;
+    }
+
+}
+
+
+/* Layout and styling for tablet view */
+@media (min-width: 600px) and (max-width: 1023px) {
+
+
+    /* Styling for the writer profile */
+    .profile-pic {
+        width: 36px;
+        height: 36px;
+    }
+
+
+    .sub-title {
+        margin: 0 0 0.2rem 0;
+    }
+}
