@@ -1,47 +1,38 @@
 @media(max-width: 600px) {
 
-
     /* Styling for the subheadline article  */
     .main-subheadline-article {
-        order: 1; 
+        order: 1;
     }
-
 
     .break-heading-order {
         order: 2;
     }
 
-
     .secondary-subheadline-articles-container {
         order: 3;
     }
-
 
     .secondary-subheadline-article {
         margin: 0 0 1.2rem 0;
     }
 
-
     .subheadline-article-img {
-      width: 100%;
+        width: 100%;
     }
-
 
     .subheadline-article-title {
-      width: 80%;
+        width: 80%;
     }
-
 
     .show-text {
         display: none;
     }
 
-
     /* Styling for remaining articles on page*/
     .regular-article {
         margin: 0 0 1.2rem 0;
     }
-
 
     .regular-article-link {
         display: flex;
@@ -49,15 +40,12 @@
         height: 7rem;
     }
 
-
     .article-img-thumbnail {
         width: 45%;
         flex-shrink: 0;
     }
 
-
     .article-description {
         padding: 0 0.5rem 2rem 0.5rem;
     }
-
 }

@@ -1,43 +1,36 @@
 /* Layout and styling that applies to desktop view */
 @media (min-width:1024px) {
 
-
     /* Layout for the entire page */
     .main-container,
     .nav-bar-container {
         grid-template-columns: 80vw;
     }
 
-
     /* Styling for common elements */
     .btn {
         width: 15vw;
     }
 
-    
     /* Styling for the secondary article  */
     .main-subheadline-article {
-        order: 1; 
+        order: 1;
         width: 55%;
         margin: 0 auto 0 0;
     }
 
-
     .break-heading-order {
         order: 3;
     }
-
 
     .secondary-subheadline-articles-container {
         order: 2;
         width: 40%;
     }
 
-
     .subheadline-article-img {
         width: 100%;
     }
-
 
     /* General styling for the article elements */
     .article-img-thumbnail {
@@ -45,30 +38,25 @@
         height: 200px;
     }
 
-    
     .regular-article {
         width: 32%;
         margin: 0 0 6rem 0;
     }
 
-
     .regular-article:nth-last-child(-n+3) {
         margin: 0;
     }
-
 
     /* Styling for subscription section */
     .subscribe-input-container {
         width: 50%;
     }
 
-
     /* Layout and styling for the footer */
     .footer-links-container {
         justify-content: space-evenly;
         margin: 4rem 0;
     }
-
 
     /* Layout and styling for the social media section */
     .social-media-bar {
@@ -79,15 +67,16 @@
 
 /* Layout for large screens */
 @media(min-width: 1400px) and (max-width: 1570px) {
+
     .main-container,
     .nav-bar-container {
         grid-template-columns: 60vw;
     }
 }
 
-
 /* Layout for really large screens */
 @media(min-width: 1571px) {
+
     .main-container,
     .nav-bar-container {
         grid-template-columns: 1100px;

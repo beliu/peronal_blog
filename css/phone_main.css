@@ -1,48 +1,40 @@
 /* Layout and Styling that applies across all phone view pages */
-@media(max-width: 600px) { 
-
+@media(max-width: 600px) {
 
     /* Styling for common elements */
     .btn {
         width: 150px;
     }
 
-
     #main-logo {
         font-size: 1.5rem;
     }
-
 
     .input {
         width: 80%;
         margin: 0.5rem 0;
     }
 
-
     .article-title,
     .rating {
         font-size: 0.8rem;
     }
 
-
     /* Styling that main content area */
-    .main-container{
+    .main-container {
         grid-template-columns: 90vw;
         justify-content: center;
     }
-
 
     /* Styling for the top Nav Bar and Headline Article */
     .top-section {
         width: 100vw;
         justify-self: center;
     }
-        
 
     .headline-title {
         font-size: 1.1rem;
     }
-
 
     /* Styling for top nav bar toggle menu*/
     .nav-logo-toggle-menu {
@@ -51,35 +43,29 @@
         align-items: center;
     }
 
-
     .nav-toggle-menu {
         visibility: visible;
         grid-column-start: 1;
     }
-
 
     .toggle-menu {
         width: 14px;
         height: 14px;
     }
 
-
     .nav-logo {
         grid-column-start: 2;
     }
-
 
     /* Styling to hide nav items (when not toggled) */
     .nav-menu-item {
         display: none;
     }
 
-
     /* Show nav items when user clicks on menu icon in mobile view */
     .nav-menu-item-show {
         display: block;
     }
-
 
     .nav-left-items {
         display: flex;
@@ -87,48 +73,43 @@
         margin: 0.5rem 0 0 0;
     }
 
-
     .nav-right-items {
         margin: 0.5rem 0 0 0;
     }
-
 
     .nav-item {
         padding: 0.5rem 0 0 0;
     }
 
+    .nav-search {
+        margin: 0 0 0.5rem 0;
+    }
 
     /* Layout for the other articles section */
     .subheadline-title {
         font-size: 1rem;
     }
 
-
     .other-articles-container {
         justify-content: center;
     }
-
 
     /* Layout and Styling for footer */
     .footer-links-container {
         flex-direction: column;
     }
 
-
     .footer-logo {
         width: 100%;
     }
-
 
     .footer-links {
         width: 100%;
     }
 
-
-    .footer-links > li{
+    .footer-links>li {
         margin: 0 0 2rem 0;
     }
-
 
     .social-media-bar {
         width: 100%;
@@ -139,7 +120,6 @@
 
 /* Layout and Styling for really small phones */
 @media (max-width: 320px) {
-
 
     #main-logo {
         font-size: 1.2rem;

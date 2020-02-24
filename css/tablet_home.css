@@ -1,84 +1,70 @@
 /* Styling for that applies only to tablet and desktop view */
 @media (min-width: 600px) {
 
-
     /* Styling for common elements */
     .btn {
         margin: 2rem 0 4rem 0;
     }
-
 
     .input {
         margin: 3rem 0 3rem 0;
         width: 45%;
     }
 
-
     .input:not(:last-of-type) {
         margin: 3rem 1rem 3rem 0;
     }
-
 
     #main-logo {
         font-size: 2rem;
     }
 
-
     .article-description {
         padding: 0 1rem 2rem 1rem;
     }
 
-    
-
     /* Layout for top navigation */
     .nav-bar-container {
         height: 6rem;
-        justify-content: space-between;
+        align-content: space-between;
     }
-
 
     .nav-logo-toggle-menu {
         text-align: center;
         margin: 0 0 1rem 0;
     }
 
-
     .nav-toggle-menu {
         display: none;
     }
 
-
     .nav-menu-item {
         display: grid;
         grid-template-columns: 0.2fr 0.8fr 0.2fr;
-        align-items: end;
+        align-items: center;
     }
-
 
     .nav-left-items {
         display: flex;
         justify-content: space-evenly;
+        align-items: center;
         grid-column: 2 / span 1;
     }
-
 
     .nav-right-items {
         grid-column: 3 / span 1;
         justify-self: end;
-    }    
-
+    }
 
     /* Styling for headline section */
     .headline-title {
         font-size: 1.5rem;
     }
 
-
     /* Layout and styling for remaining articles on page */
     .subheadline-title {
         font-size: 1.2rem;
     }
-
 
     .secondary-subheadline-articles-container {
         display: grid;
@@ -86,11 +72,9 @@
         grid-gap: 2rem;
     }
 
-
     .other-articles-container {
         justify-content: space-between;
     }
-
 
     /* Layout for the subscription section */
     .subscribe-input-container {
@@ -98,26 +82,16 @@
         flex-flow: row wrap;
         justify-content: center;
     }
-
-
-    /** Layout and Styling for the article page  **/
-    /* Styling for article text */
-    .article-text {
-        font-size: 1.1rem;
-        line-height: 2.2rem;
-    }
 }
 
 
 /* Layout and styling for tablet view */
 @media (min-width: 600px) and (max-width: 1023px) {
 
-
     /* Styling for common elements */
     .btn {
         width: 20vw;
     }
-
 
     /* Layout for the entire page */
     .main-container,
@@ -125,32 +99,27 @@
         grid-template-columns: 90vw;
     }
 
-
     /* Styling for the other articles on the page */
     .article-container {
         grid-template-columns: 1fr;
         grid-gap: 1rem;
     }
 
-
-     /* Styling for the secondary article  */
-     .main-subheadline-article {
-        order: 1; 
+    /* Styling for the secondary article  */
+    .main-subheadline-article {
+        order: 1;
         width: 55%;
         margin: 0 auto 0 0;
     }
-
 
     .break-heading-order {
         order: 3;
     }
 
-
     .secondary-subheadline-articles-container {
         order: 2;
         width: 40%;
     }
-
 
     /* Styling for the secondary article  */
     .subheadline-article-img {
@@ -158,42 +127,35 @@
         height: 45%;
     }
 
-
     /* Layout and sytling for remaining articles on page */
     .other-articles-container {
         justify-content: space-between;
     }
-
 
     .regular-article {
         width: 48%;
         margin: 0 0 4rem 0;
     }
 
-
     .regular-article:nth-last-child(-n+2) {
         margin: 0;
     }
-
 
     .article-img-thumbnail {
         width: 100%;
         height: 14rem;
     }
 
-
     /* Styling for the subscription section */
     .subscribe-input-container {
         width: 70%;
     }
-
 
     /* Layout and styling for the footer */
     .footer-links-container {
         justify-content: space-evenly;
         margin: 2rem 0;
     }
-
 
     /* Layout and styling for the social media section */
     .social-media-bar {
