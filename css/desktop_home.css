@@ -49,18 +49,14 @@
 
     /* Styling for subscription section */
     .subscribe-input-container {
-        width: 50%;
+        width: 80%;
+        max-width: 1100px;
     }
 
     /* Layout and styling for the footer */
     .footer-links-container {
         justify-content: space-evenly;
         margin: 4rem 0;
-    }
-
-    /* Layout and styling for the social media section */
-    .social-media-bar {
-        margin: 1rem 0;
     }
 }
 

@@ -26,6 +26,16 @@
         width: 150px;
         height: 150px;
     }
+
+    .author-bio {
+        margin: 0 0 0 2rem;
+    }
+
+    /* Layout that applies to the social media section and footer*/
+    .article-social-media-bar,
+    .article-footer-links-container {
+        margin: 4rem 0;
+    }
 }
 
 

@@ -188,16 +188,19 @@ figcaption {
     margin: 4rem auto;
 }
 
-/* Layout and Styling for the footer */
-.footer-container {
+/* Layout and Styling for the social media section and the footer */
+.footer-container,
+.social-media-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    align-items: center;
 }
 
+.social-media-bar,
 .footer-links-container {
     display: flex;
+    justify-content: space-evenly;
+
 }
 
 .footer-links {
@@ -208,11 +211,6 @@ figcaption {
 .social-icon {
     width: 24px;
     height: 24px;
-}
-
-.social-media-bar {
-    display: flex;
-    justify-content: space-evenly;
 }
 
 /* Layout for Article Gallery */
@@ -278,19 +276,14 @@ figcaption {
     font-style: italic;
     font-weight: bold;
     line-height: 1.7rem;
-    margin: 0 0 0 2rem;
 }
 
 /* Layout and Styling for the social media section */
 .social-media-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 4rem;
     background-color: #beebe9;
-    text-align: center;
     width: 100vw;
     justify-self: center;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
 }
 
 .social-heading {

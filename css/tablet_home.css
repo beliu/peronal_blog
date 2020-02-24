@@ -82,6 +82,14 @@
         flex-flow: row wrap;
         justify-content: center;
     }
+
+    /* Layout for the footer section */
+    .social-media-bar,
+    .footer-links-container {
+        width: 80%;
+        max-width: 1100px;
+        margin: 2rem 0;
+    }
 }
 
 
@@ -148,17 +156,6 @@
 
     /* Styling for the subscription section */
     .subscribe-input-container {
-        width: 70%;
-    }
-
-    /* Layout and styling for the footer */
-    .footer-links-container {
-        justify-content: space-evenly;
-        margin: 2rem 0;
-    }
-
-    /* Layout and styling for the social media section */
-    .social-media-bar {
-        margin: 1rem 0;
+        width: 90%;
     }
 }
